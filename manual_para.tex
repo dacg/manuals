@@ -19,5 +19,8 @@ Other parts of the code, such as the reading/writing of files, the preparation o
 
 Now, how many processors is it worth using with LMGC90? Bellow, you find a figure from the Ph.D. dissertation of Mathieu Renouf (Optimisation numérique et calcul parallèle pour l’étude de milieux divisés bi- et tridimensionnels, 2004) presenting the speed-up (SP) of LMGC90 as a function of the number of processors (P). The different lines correspond to different data structures the code can use. For the moment, the most stable and that we usually use is the SDL (“Stored Delassus Loops”). As you can see, the speed-up quickly reaches a plateau around 4. That means that, at most, we can divide the computing time by 4 times when using around 16 processors. It is probably not worth using 16 processors for just a speed-up of 4 when using 4 processors already splits the computing time by almost 2. So, I recommend not using more than 6 processors for your simulations when you are running parallel jobs with LMGC90. 
 
+\begin{equation}
+y = mx + b
+\end{equation}
 
 \end{document}
