@@ -1,0 +1,41 @@
+Git - Utilisation de VisioStudio
+
+Répertoire = métadonnées + sauvegardes
+
+Sauvegardes entières, fonctionnelles. 
+À préciser avec des messages pertinents de description de sauvegarde.
+
+VsCode
+.gitconfig needs to be at the root of your home folder, with the name .gitconfig
+
+Une clef ([]) = une valeur dans une section
+
+ui = user interface
+
+Beaucoup d'options sont définies sur "Documentation .gitconfig"
+
+Via SourceCode, normalement un répertoire par projet.
+
+Trois types de fichiers de suivi. Suivi, sauvegardé, indexé
+
+"+" = git add
+"V" or check sign = git commit
+
+Nouveau dépôt = nouveau dossier
+
+
+Git Add remote, ajouter nom, ajouter URL. Utiliser Push to... depuis le menu "hamburger"
+Sinon, via terminal : 
+[user16@node8 planets]$ git remote -v
+test    https://github.com/trvui/planets.git (fetch)
+test    https://github.com/trvui/planets.git (push)
+[user16@node8 planets]$ git push -u test master
+
+Sur le pop-up choisir "Cancel" puis retourner à la palette de command qui devrait demander de s'identifier avec les ids GitHub.
+
+git branch ***
+git checkout *** : vous avez changé de branche.
+git branch to see all of them
+git branch -d *** to delete
+git merge *** to merge with the one in the current branch checked out
+git push origin --delete *** to delete the one in remote with the name ***
