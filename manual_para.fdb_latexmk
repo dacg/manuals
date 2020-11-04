@@ -1,0 +1,22 @@
+# Fdb version 3
+["pdflatex"] 1604519718 "manual_para.tex" "manual_para.pdf" "manual_para" 1604519721
+  "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
+  "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
+  "/usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
+  "/usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
+  "/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls" 1580683321 20023 e427dd9e17e239bf926ef3aab67fe35e ""
+  "/usr/local/texlive/2020/texmf-dist/tex/latex/base/inputenc.sty" 1580683321 5050 8933a39ad74377accd18991c5eb90c58 ""
+  "/usr/local/texlive/2020/texmf-dist/tex/latex/base/size12.clo" 1580683321 8447 5c4b8ee712f8e349df2722115bc8c513 ""
+  "/usr/local/texlive/2020/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty" 1548974385 11128 a53805799bebfed6358fc1658a18e41f ""
+  "/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def" 1588886738 25681 ff44b84000da696ec5fec7018b319c95 ""
+  "/usr/local/texlive/2020/texmf-dist/web2c/texmf.cnf" 1583102494 39451 60d7debd9ef8ece44cbe965493576c2d ""
+  "/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1590609630 4857868 1484efd943a99f8d6ed07a7f86f539e9 ""
+  "/usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1590609903 2435078 b7e0be5954549bcad7255e973dfa9514 ""
+  "/usr/local/texlive/2020/texmf.cnf" 1590609581 577 d60164b4589a341208aff7a667fbbdcb ""
+  "manual_para.aux" 1604519720 8 a94a2480d3289e625eea47cd1b285758 "pdflatex"
+  "manual_para.tex" 1604519717 197 6c022053dfe053ca4c7944a80f9808d1 ""
+  (generated)
+  "manual_para.log"
+  "manual_para.pdf"
+  "manual_para.aux"
