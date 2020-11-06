@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1604687335 "/Users/davidcantor/Documents/6_PostDoc_Poly/2_ComputeCanadaTests/6_Docs-Manuales/1_Manual/1_Parallel/manual_para.tex" "/Users/davidcantor/Documents/6_PostDoc_Poly/2_ComputeCanadaTests/6_Docs-Manuales/1_Manual/1_Parallel/manual_para.pdf" "manual_para" 1604687351
-  "/Users/davidcantor/Documents/6_PostDoc_Poly/2_ComputeCanadaTests/6_Docs-Manuales/1_Manual/1_Parallel/manual_para.aux" 1604687345 146 f542744a8124e852a735a76c58701163 ""
-  "/Users/davidcantor/Documents/6_PostDoc_Poly/2_ComputeCanadaTests/6_Docs-Manuales/1_Manual/1_Parallel/manual_para.tex" 1604687329 5966 e4fdc525ea6cb99c53a18456d1e9e5cf ""
+["pdflatex"] 1604687570 "/Users/davidcantor/Documents/6_PostDoc_Poly/2_ComputeCanadaTests/6_Docs-Manuales/1_Manual/1_Parallel/manual_para.tex" "/Users/davidcantor/Documents/6_PostDoc_Poly/2_ComputeCanadaTests/6_Docs-Manuales/1_Manual/1_Parallel/manual_para.pdf" "manual_para" 1604687584
+  "/Users/davidcantor/Documents/6_PostDoc_Poly/2_ComputeCanadaTests/6_Docs-Manuales/1_Manual/1_Parallel/manual_para.aux" 1604687581 146 f542744a8124e852a735a76c58701163 ""
+  "/Users/davidcantor/Documents/6_PostDoc_Poly/2_ComputeCanadaTests/6_Docs-Manuales/1_Manual/1_Parallel/manual_para.tex" 1604687568 5995 9feed20078a3c183f105d54f3e0f9a12 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
@@ -99,11 +99,11 @@
   "/usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1590609903 2435078 b7e0be5954549bcad7255e973dfa9514 ""
   "/usr/local/texlive/2020/texmf.cnf" 1590609581 577 d60164b4589a341208aff7a667fbbdcb ""
   "figs/1_Scaling.pdf" 1604601734 67533 b77ae930af2fc50add3413b40c118cab ""
-  "manual_para.aux" 1604687345 146 f542744a8124e852a735a76c58701163 "pdflatex"
-  "manual_para.tex" 1604687329 5966 e4fdc525ea6cb99c53a18456d1e9e5cf ""
+  "manual_para.aux" 1604687581 146 f542744a8124e852a735a76c58701163 "pdflatex"
+  "manual_para.tex" 1604687568 5995 9feed20078a3c183f105d54f3e0f9a12 ""
   (generated)
-  "manual_para.pdf"
-  "/Users/davidcantor/Documents/6_PostDoc_Poly/2_ComputeCanadaTests/6_Docs-Manuales/1_Manual/1_Parallel/manual_para.log"
-  "manual_para.log"
   "manual_para.aux"
+  "manual_para.pdf"
+  "manual_para.log"
   "/Users/davidcantor/Documents/6_PostDoc_Poly/2_ComputeCanadaTests/6_Docs-Manuales/1_Manual/1_Parallel/manual_para.pdf"
+  "/Users/davidcantor/Documents/6_PostDoc_Poly/2_ComputeCanadaTests/6_Docs-Manuales/1_Manual/1_Parallel/manual_para.log"
