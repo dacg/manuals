@@ -1,0 +1,28 @@
+
+$behav 
+ iqsc1  IQS_CLB                         fric= 0.0000000e+00
+      
+$behav 
+ iqsc0  IQS_CLB                         fric= 0.0000000e+00
+      
+$seety
+ cdbdy  cdtac  cdcol  behav  anbdy  antac  ancol       alert
+ RBDY2  POLYG  BLUEx  iqsc1  RBDY2  POLYG  BLUEx       2.5833333e-01
+      
+$seety
+ cdbdy  cdtac  cdcol  behav  anbdy  antac  ancol       alert
+ RBDY2  DISKx  BLUEx  iqsc1  RBDY2  DISKx  BLUEx       2.5833333e-01
+      
+$seety
+ cdbdy  cdtac  cdcol  behav  anbdy  antac  ancol       alert
+ RBDY2  DISKx  BLUEx  iqsc1  RBDY2  POLYG  BLUEx       2.5833333e-01
+      
+$seety
+ cdbdy  cdtac  cdcol  behav  anbdy  antac  ancol       alert
+ RBDY2  DISKx  BLUEx  iqsc0  RBDY2  JONCx  WALLx       2.5833333e-01
+      
+$seety
+ cdbdy  cdtac  cdcol  behav  anbdy  antac  ancol       alert
+ RBDY2  POLYG  BLUEx  iqsc0  RBDY2  JONCx  WALLx       2.5833333e-01
+      
+      
