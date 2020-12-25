@@ -102,11 +102,11 @@ ComputeCanada is the national network of servers for high-performance computing.
     \item Niagara
 \end{itemize}
 
-These servers are maintained and located at different universities across the country. In particular, the server Béluga is located at the University of Montréal and managed by the regional computing service CalculQuébec. It makes the access and support to this server faster when working in Montréal. However, each cluster has particular advantages in performance and jobs submission policies one should study to choose the servers which are the more suitable for one's works.
+These servers are maintained and located at different universities across the country. In particular, the server Béluga is located at the University of Montréal and managed by the regional computing service CalculQuébec. It makes the access and support to this server faster when working in Montréal. However, each cluster has particular advantages in performance and jobs submission policies one should study to choose the servers which would be the more suitable for one's works.
 
 The procedures to access, upload/download, install software, and run scripts are similar in all of them. Please be careful when using the clusters. These are systems shared by many people and a wrong set of parameters can cause other simulations to stop or dramatically slow down. Although there’s a large storage space in these servers, please download or backup your data on local storage if possible. If, for any reason, the storage memory is full, everybody’s simulations will stop.
 
-Each one of them is provided a set of modules which allow you to switch between different versions of software packages you may want to use. This root set is called a “standard environment” and is named \texttt{StdEnv}. At the present time it exists three competing versions of these \texttt{2016.4}, \texttt{2018.3} and \texttt{2020}. For those of you who might want to investigate what truly lies behind, learn that detailed information on the major additions developed between each version can be find \href{https://docs.computecanada.ca/wiki/Standard_software_environments}{\underline{here}}.
+Each one of these servers is provided with a set of structural modules giving you access to different versions of software packages you may want to use. This root set is called a “standard environment” and is named \texttt{StdEnv}. At the present time it exists three competing versions of these \texttt{2016.4}, \texttt{2018.3} and \texttt{2020}. For those of you who might want to investigate what truly lies behind, learn that detailed information on the major additions developed between each version can be find \href{https://docs.computecanada.ca/wiki/Standard_software_environments}{\underline{here}}.
 
 
 \section*{How to access the servers}
@@ -119,24 +119,25 @@ The access to the server uses \texttt{ssh} protocol. In a terminal, with your us
   \includegraphics[width=1.\linewidth]{Screen_David1.jpg}
 \end{figure}
 
-You will be asked to write your password and then press enter.
+You will be asked to write your password. When it's done, press enter.
 
 Then, you should see the following:
-
 \begin{figure}[H]
   \centering
   \includegraphics[width=1.\linewidth]{Screen_David2.jpg}
 \end{figure}
 
 \textbf{TIP:}
-You may log into the server very frequently, so it may be annoying to write down each time the \texttt{ssh} line and your password. Install and use \texttt{sshpass} that will allow you to create a bash script that you can run each time you want to log-in. \\ 
+You may log into the server very frequently, so it may be annoying to write down each time the \texttt{ssh} line and your password. Install and use \texttt{sshpass} that will allow you to create a \texttt{bash} script that you can run each time you want to log-in. \\ 
 No need to write down the \texttt{ssh} line or your password. Your script may look something like this:
-
 \begin{figure}[H]
   \includegraphics[width=1.\linewidth]{Screen_David3_modif.jpg}
 \end{figure}
 
-Then, in your terminal you only need to run \texttt{sh r\_beluga.sh} to get logged in the server.
+Then, in your terminal you only need to run the line below to get logged in the server.
+\begin{tcolorbox}
+\texttt{davidcantor@MacBook-Pro-de-David $\sim$ \% bash r\_beluga.sh}
+\end{tcolorbox}
 
 Once logged in, you can see \texttt{ls} the structure of the folder you have access to by using the command:
 \begin{figure}[H]
@@ -153,7 +154,7 @@ Once logged in, you can see \texttt{ls} the structure of the folder you have acc
 
     3) \texttt{scratch}: Large space for temporary storage of files during computations. The limit storage is 20 TB per user.
     Files of more than 60 days old are automatically deleted. So please, periodically check and download your files in scratch or you risk losing them permanently. \\ \break
-    \uline{Your scripts for simulation (gen\_sample, command, and others) should be uploaded to your scratch and ran from there.}
+    \uline{Your scripts for simulation (\texttt{gen\_sample}, \texttt{command}, and others) should be uploaded to your scratch and ran from there.}
 
 
 \section*{Uploading and downloading data}
@@ -185,7 +186,7 @@ Using \texttt{pwd}, you will get the path to that location:
 
 Now, on your computer, using another window of terminal, go find the sources of LMGC90.
 
-\textbf{NOTE:} Use one of the \texttt{version20XX.rc1} available in the \href{https://git-xen.lmgc.univ-montp2.fr/lmgc90/lmgc90_user/-/wikis/download_and_install}{\underline{website}}.
+\textbf{NOTE:} Use the \texttt{version2019.rc1} available in the \href{https://git-xen.lmgc.univ-montp2.fr/lmgc90/lmgc90_user/-/wikis/download_and_install}{\underline{website}}.
 
 Upload your sources using the following command:
 \begin{figure}[H]
@@ -197,7 +198,7 @@ To download files, for instance from a folder in your simulation folder \texttt{
 
 First, go with a new window of terminal to the location you want ti download the files.
 
-To know the location of your files in the server you can use \texttt{pdw}.
+To know the location of your files in the server you can use \texttt{pwd}.
 \begin{figure}[H]
   \centering
   \includegraphics[width=1.\linewidth]{Screen_David8.jpg}
@@ -221,9 +222,7 @@ The collection originally implemented on each cluster is defined by their standa
     \item \texttt{StdEnv/2016.4} is the standard environment originally implemented on both Cedar and Graham.
 \end{itemize}
 
-
 First and foremost, we remind you that at any time and in any repertory of your server share you can access to the list of modules loaded by using the command:
-
 \begin{tcolorbox}
 \texttt{[name@server $\sim$]\$ module list}
 \end{tcolorbox}
@@ -277,19 +276,22 @@ Also, add:
   \centering
   \includegraphics[width=1.\linewidth]{Screen3.jpg}
 \end{figure}
+\vspace{-0.2cm}
+\textbf{NOTE:} The previous lines imply that we will be using Python 3 instead of Python 2.7. If you find some errors in your scripts make sure everything is not related to the version of Python
 
-Hopefully, you have obtained this type of response.
+Finally, check another time the list of modules loaded.
 \begin{figure}[H]
   \centering
   \includegraphics[width=1.\linewidth]{Screen4.jpg}
 \end{figure}
 
+Hopefully, you obtain the type of response displayed abovc.
 
-You will need to run the same three lines \textcolor{red}{(\texttt{\textbf{A}}, \texttt{\textbf{B}} and if needed \texttt{\textbf{*}})} before running your simulations. In fact, you will systematically add them in each bash script from which we describe the structure later.
+You will need to run the same two or three lines \textcolor{red}{(\texttt{\textbf{A}}, \texttt{\textbf{B}} and if needed \texttt{\textbf{*}})} before running your simulations. In fact, you will systematically add them in each \texttt{bash} script from which we describe the structure later.
 
 
 \section*{Installing LMGC90}
-Adequate modules are now loaded. The compilation is done as explained below following the procedure given by the \href{https://git-xen.lmgc.univ-montp2.fr/lmgc90/lmgc90_user/-/wikis/Compilation}{\underline{LMGC90\_wiki page}}. 
+Adequate modules are now loaded. The compilation is done as explained in the procedure given by the \href{https://git-xen.lmgc.univ-montp2.fr/lmgc90/lmgc90_user/-/wikis/Compilation}{\underline{LMGC90\_wiki page}}, although some flags should be added as written below.
 
 Create a \texttt{build} folder with:
 \begin{tcolorbox}
@@ -303,35 +305,35 @@ And compile with:
 \begin{tcolorbox}
 \texttt{[name@server build]\$ cmake .. -DMATLIB\_VERSION=none -DSPARSE\_LIBRARY=none} 
 \end{tcolorbox}
-\vspace{0.5cm}
 Finally:
 \begin{tcolorbox}
 \texttt{[name@server build]\$ make} 
 \end{tcolorbox}
 
-The compilation went probably well, without raising any issue to your attention.
+The compilation went probably well, without raising any issue.
 
 
 \section*{Running your simulations with the queuing assistant: SLURM}
-You must use a queuing assistant called Slurm to run your simulations from one of the two clusters we are interested in.  We propose to work with a bash script. This same script will have to be in the folder of your simulation located somewhere in your \texttt{scratch}:
+To run your simulations, you must use a queuing assistant called Slurm. You should not run the simulations directly typing \texttt{python gen\_sample.py} or \texttt{python command.py}. The
+queuing assistant is in charge of allocating space and sequentially let people run their simulations. The Slurm assistant can work using a \texttt{bash} script. This same script will have to be in the folder of your simulation located somewhere in your \texttt{scratch}:
 \begin{tcolorbox}
-\texttt{[name@server $\sim$]\$ cd scratch/path/simu\_folder/}\\
-\texttt{[name@server simu\_folder]\$ pwd}\\
-\texttt{/home/name/scratch/path/simu\_folder}
+\texttt{[name@server $\sim$]\$ cd scratch/path/test\_run/}\\
+\texttt{[name@server test\_run]\$ pwd}\\
+\texttt{/home/name/scratch/path/test\_run}
 \end{tcolorbox}
 
-After you have uploaded the \texttt{DATBOX} folder and the \texttt{command.py} referring to your simulation in its folder, create the bash script with the command:
+After you have uploaded the files referring to your simulation in its folder, create the \texttt{bash} script with the command:
 \begin{tcolorbox}
-\texttt{[name@server simu\_folder]\$ nano script.sh} 
+\texttt{[name@server test\_run]\$ nano script.sh} 
 \end{tcolorbox}
 
-In the nano editor you are then able to write a simple bash script from which we give you an example of structure below.
+In the nano editor you are then able to write a simple \texttt{bash} script from which we give you an example of structure below.
 \begin{figure}[H]
   \centering
   \includegraphics[width=1.\linewidth]{Screen5.jpg}
 \end{figure}
 \begin{itemize}
-    \item The first line says that this is a bash script.
+    \item The first line says that this is a \texttt{bash} script.
     \item Second line states that this belongs to the group \texttt{account\_name}.
     \item Third line states the duration of the simulation. In Béluga and Niagara the limit is set to 7 days, 28 days in Cedar and Graham.
     \item Fourth and fifth lines are optional but helpful. They will keep you updated of your simulation’s state by email so you do not have to keep an eye on it constantly.
@@ -342,7 +344,7 @@ In the nano editor you are then able to write a simple bash script from which we
 
 Then, run it using:
 \begin{tcolorbox}
-\texttt{[name@server simu\_folder]\$ sbatch script.sh}
+\texttt{[name@server test\_run]\$ sbatch script.sh}
 \end{tcolorbox}
 
 To see all the jobs running at the same time use \texttt{squeue} (there are hundreds!).
@@ -350,8 +352,8 @@ To check the status of your jobs using \texttt{squeue} and your username as foll
 \begin{tcolorbox}
 \texttt{[name@server $\sim$]\$ squeue -u name}
 \end{tcolorbox}
-To cancel a job use \texttt{scancel} and the number id of your job.
-The outputs of your simulation will be located in a file called \texttt{slurm-XXX} with \texttt{XXX} the identifier of your job.
+To cancel a job use \texttt{scancel} and the number \texttt{id} of your job.
+The outputs of your simulation will be located in a file called \texttt{slurm-XXX} with \texttt{XXX} the \texttt{id} of your job.
 
 \textbf{NOTE:} Remember you should run your simulation in the \texttt{scratch} folder!
 
@@ -361,7 +363,7 @@ Slurm gives you many options for running your simulations. You can run simulatio
 
 Follow the instructions \href{https://docs.computecanada.ca/wiki/Running_jobs}{\underline{here}}.
 
-\textbf{Important:} When running simulations in parallel remember to set in the Slurm script the following variables (besides those mentioned in the link above):
+\textbf{Important:} When running simulations in parallel remember to set in the Slurm script the following variables (and those mentioned in the link above):
 \begin{tcolorbox}
 \texttt{export OMP\_SCHEDULE=STATIC} \\
 \texttt{export OMP\_NUM\_THREADS=n} \\
