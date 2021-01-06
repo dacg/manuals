@@ -1,0 +1,697 @@
+X-Account-Key: account4
+X-UIDL: UID3093-1566998803
+X-Mozilla-Status: 0005
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <bounce-mc.us5_10889519.352812-95505db6b1@mail113.atl91.mcsv.net>
+Received: from smtp.polymtl.ca (smtp.polymtl.ca [132.207.4.11])
+	by pop3.polymtl.ca (8.14.4/8.14.4) with ESMTP id 0B8GRILC018586
+	for <tristan.vuilloz@polymtl.ca>; Tue, 8 Dec 2020 11:27:18 -0500
+Received: from mail113.atl91.mcsv.net (mail113.atl91.mcsv.net [198.2.130.113])
+	by smtp.polymtl.ca (8.14.7/8.14.7) with ESMTP id 0B8GR5Bp020394
+	(version=TLSv1/SSLv3 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NOT)
+	for <tristan.vuilloz@polymtl.ca>; Tue, 8 Dec 2020 11:27:10 -0500
+DKIM-Filter: OpenDKIM Filter v2.11.0 smtp.polymtl.ca 0B8GR5Bp020394
+Authentication-Results: smtp.polymtl.ca;
+	dkim=pass (1024-bit key) header.d=computecanada.ca header.i=noreply@computecanada.ca header.b="R8P+atJ5"
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=computecanada.ca;
+	s=k1; t=1607443229; i=noreply@computecanada.ca;
+	bh=Y30QAuU7kCHeEpXrFMRDyg0ZD5352nkR9V8vHiWztb4=;
+	h=Subject:From:Reply-To:To:Date:Message-ID:List-ID:List-Unsubscribe:
+	 Content-Type:MIME-Version;
+	b=R8P+atJ5rRIO9qW0fVnkje4Wmo0rBd6pymPVCh8ag34CdfWtR5WtdG53fx5dZXW/8
+	 ttVXa9pXbpXh76FL8PMYrLm+tjBbrRxgO/VO5Cg6dXu8mgFSdjeLJQMwgD+5pWIegZ
+	 nBvoOzPY9S4FqvNqhTuzpZvmqczCuadsmhdLKyTs=
+Received: from localhost (localhost [127.0.0.1])
+	by mail113.atl91.mcsv.net (Mailchimp) with ESMTP id 4Cr4dn3FKBzNCvLvH
+	for <tristan.vuilloz@polymtl.ca>; Tue,  8 Dec 2020 16:00:29 +0000 (GMT)
+Subject: =?utf-8?Q?New=20software=20environment?=
+From: =?utf-8?Q?Compute=20Canada?= <noreply@computecanada.ca>
+Reply-To: =?utf-8?Q?Compute=20Canada?= <noreply@computecanada.ca>
+To: =?utf-8?Q?Tristan=20Vuilloz?= <tristan.vuilloz@polymtl.ca>
+Date: Tue,  8 Dec 2020 15:59:39 +0000
+Message-ID: <49a9e48b981a58ddae46ee867.95505db6b1.20201208155927.3ae87639e7.305d8a95@mail113.atl91.mcsv.net>
+X-Mailer: MailChimp Mailer - **CID3ae87639e795505db6b1**
+X-Campaign: mailchimp49a9e48b981a58ddae46ee867.3ae87639e7
+X-campaignid: mailchimp49a9e48b981a58ddae46ee867.3ae87639e7
+X-Report-Abuse: Please report abuse for this campaign here: https://mailchimp.com/contact/abuse/?u=49a9e48b981a58ddae46ee867&id=3ae87639e7&e=95505db6b1
+X-MC-User: 49a9e48b981a58ddae46ee867
+Feedback-ID: 10889519:10889519.352812:us5:mc
+List-ID: 49a9e48b981a58ddae46ee867mc list <49a9e48b981a58ddae46ee867.75525.list-id.mcsv.net>
+X-Accounttype: pd
+List-Unsubscribe: <https://computecanada.us5.list-manage.com/unsubscribe?u=49a9e48b981a58ddae46ee867&id=c3c951e025&e=95505db6b1&c=3ae87639e7>, <mailto:unsubscribe-mc.us5_49a9e48b981a58ddae46ee867.3ae87639e7-95505db6b1@mailin.mcsv.net?subject=unsubscribe>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Content-Type: multipart/alternative; boundary="_----------=_MCPart_977457029"
+MIME-Version: 1.0
+X-Poly-FromMTA: (mail113.atl91.mcsv.net [198.2.130.113]) at Tue,  8 Dec 2020 16:27:05 +0000
+X-Spam-Level: .
+X-Spam-Status: No, score=-4.4 required=5.5 tests=ALL_TRUSTED,BAYES_00,DCC_CHECK,DKIM_SIGNED,DKIM_VALID,DKIM_VALID_AU,HEADER_FROM_DIFFERENT_DOMAINS,HTML_MESSAGE,JMQ_SPF_NEUTRAL,MIME_QP_LONG_LINE,RYe_DKIM_VALSIG,T_KAM_HTML_FONT_INVALID,URIBL_BLOCKED shortcircuit=no autolearn=no autolearn_force=no version=3.4.4
+X-Spam-DCC: Etherboy: antispam2020.polymtl.ca 1002; IP=ok Body=1 Fuz1=1 Fuz2=many rep=27%
+X-Spam-Languages: en
+
+This is a multi-part message in MIME format
+
+--_----------=_MCPart_977457029
+Content-Type: text/plain; charset="utf-8"; format="fixed"
+Content-Transfer-Encoding: quoted-printable
+
+Start testing this new software environment now
+
+Dear Tristan Vuilloz=2C
+
+We would like to inform you that a new software environment is available o=
+n B=C3=A9luga=2C Cedar=2C Graham and Niagara. This new environment offers=
+ many advantages including the latest version of most applications=2C perf=
+ormance optimizations and improved usability.
+
+Important: The 2020 environment will become the default environment on all=
+ of our clusters by April 2021. At that point=2C you will still be able to=
+ load the older environment=2C but new software is only being installed fo=
+r the newer environment. Therefore=2C software in the old environment will=
+ become outdated.
+
+We strongly recommend that you start testing this new software environment=
+ now.
+
+For more information please visit our documentation (https://docs.computec=
+anada.ca/wiki/Standard_software_environments#StdEnv.2F2020) .
+
+How to activate this new environment (StdEnv/2020)
+* You can activate this environment by using the command:
+
+module load StdEnv/2020
+* If you wish to make it your default before April=2C use the command :
+
+echo "module-version StdEnv/2020 default" >> $HOME/.modulerc
+
+Please email support@computecanada.ca (mailto:support@computecanada.ca?sub=
+ject=3DNew%20Software%20environment) if you have any questions or concerns=
+ about this new environment. Please include all of the relevant details (h=
+ttps://docs.computecanada.ca/wiki/Technical_support) in your email.
+
+Thank you=2C
+
+Compute Canada Support Team
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+This email was sent to tristan.vuilloz@polymtl.ca (mailto:tristan.vuilloz@polymtl.ca)
+why did I get this? (https://computecanada.us5.list-manage.com/about?u=3D4=
+9a9e48b981a58ddae46ee867&id=3Dc3c951e025&e=3D95505db6b1&c=3D3ae87639e7)    =
+ unsubscribe from this list (https://computecanada.us5.list-manage.com/uns=
+ubscribe?u=3D49a9e48b981a58ddae46ee867&id=3Dc3c951e025&e=3D95505db6b1&c=3D3a=
+e87639e7)     update subscription preferences (https://computecanada.us5.l=
+ist-manage.com/profile?u=3D49a9e48b981a58ddae46ee867&id=3Dc3c951e025&e=3D95505db6b1)
+Compute Canada . 155 University Ave=2C Suite 302 . Toronto=2C ON M5H 3B7 .=
+ Canada
+--_----------=_MCPart_977457029
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-micros=
+oft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+    <head>
+        <!-- NAME: SIMPLE TEXT -->
+        <!--[if gte mso 15]>
+        <xml>
+            <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+            </o:OfficeDocumentSettings>
+        </xml>
+        <![endif]-->
+        <meta charset=3D"UTF-8">
+        <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+        <meta name=3D"viewport" content=3D"width=3Ddevice-width=2C initial=
+-scale=3D1">
+        <title>New software environment</title>
+
+    <style type=3D"text/css">
+=09=09p{
+=09=09=09margin:10px 0;
+=09=09=09padding:0;
+=09=09}
+=09=09table{
+=09=09=09border-collapse:collapse;
+=09=09}
+=09=09h1=2Ch2=2Ch3=2Ch4=2Ch5=2Ch6{
+=09=09=09display:block;
+=09=09=09margin:0;
+=09=09=09padding:0;
+=09=09}
+=09=09img=2Ca img{
+=09=09=09border:0;
+=09=09=09height:auto;
+=09=09=09outline:none;
+=09=09=09text-decoration:none;
+=09=09}
+=09=09body=2C#bodyTable=2C#bodyCell{
+=09=09=09height:100%;
+=09=09=09margin:0;
+=09=09=09padding:0;
+=09=09=09width:100%;
+=09=09}
+=09=09.mcnPreviewText{
+=09=09=09display:none !important;
+=09=09}
+=09=09#outlook a{
+=09=09=09padding:0;
+=09=09}
+=09=09img{
+=09=09=09-ms-interpolation-mode:bicubic;
+=09=09}
+=09=09table{
+=09=09=09mso-table-lspace:0pt;
+=09=09=09mso-table-rspace:0pt;
+=09=09}
+=09=09.ReadMsgBody{
+=09=09=09width:100%;
+=09=09}
+=09=09.ExternalClass{
+=09=09=09width:100%;
+=09=09}
+=09=09p=2Ca=2Cli=2Ctd=2Cblockquote{
+=09=09=09mso-line-height-rule:exactly;
+=09=09}
+=09=09a[href^=3Dtel]=2Ca[href^=3Dsms]{
+=09=09=09color:inherit;
+=09=09=09cursor:default;
+=09=09=09text-decoration:none;
+=09=09}
+=09=09p=2Ca=2Cli=2Ctd=2Cbody=2Ctable=2Cblockquote{
+=09=09=09-ms-text-size-adjust:100%;
+=09=09=09-webkit-text-size-adjust:100%;
+=09=09}
+=09=09.ExternalClass=2C.ExternalClass p=2C.ExternalClass td=2C.ExternalCla=
+ss div=2C.ExternalClass span=2C.ExternalClass font{
+=09=09=09line-height:100%;
+=09=09}
+=09=09a[x-apple-data-detectors]{
+=09=09=09color:inherit !important;
+=09=09=09text-decoration:none !important;
+=09=09=09font-size:inherit !important;
+=09=09=09font-family:inherit !important;
+=09=09=09font-weight:inherit !important;
+=09=09=09line-height:inherit !important;
+=09=09}
+=09=09#bodyCell{
+=09=09=09padding:10px;
+=09=09}
+=09=09.templateContainer{
+=09=09=09max-width:600px !important;
+=09=09}
+=09=09a.mcnButton{
+=09=09=09display:block;
+=09=09}
+=09=09.mcnImage=2C.mcnRetinaImage{
+=09=09=09vertical-align:bottom;
+=09=09}
+=09=09.mcnTextContent{
+=09=09=09word-break:break-word;
+=09=09}
+=09=09.mcnTextContent img{
+=09=09=09height:auto !important;
+=09=09}
+=09=09.mcnDividerBlock{
+=09=09=09table-layout:fixed !important;
+=09=09}
+=09=09body=2C#bodyTable{
+=09=09=09background-color:#FFFFFF;
+=09=09=09background-image:none;
+=09=09=09background-repeat:no-repeat;
+=09=09=09background-position:center;
+=09=09=09background-size:cover;
+=09=09}
+=09=09#bodyCell{
+=09=09=09border-top:0;
+=09=09}
+=09=09.templateContainer{
+=09=09=09border:0;
+=09=09}
+=09=09h1{
+=09=09=09color:#202020;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:26px;
+=09=09=09font-style:normal;
+=09=09=09font-weight:bold;
+=09=09=09line-height:125%;
+=09=09=09letter-spacing:normal;
+=09=09=09text-align:left;
+=09=09}
+=09=09h2{
+=09=09=09color:#202020;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:22px;
+=09=09=09font-style:normal;
+=09=09=09font-weight:bold;
+=09=09=09line-height:125%;
+=09=09=09letter-spacing:normal;
+=09=09=09text-align:left;
+=09=09}
+=09=09h3{
+=09=09=09color:#202020;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:20px;
+=09=09=09font-style:normal;
+=09=09=09font-weight:bold;
+=09=09=09line-height:125%;
+=09=09=09letter-spacing:normal;
+=09=09=09text-align:left;
+=09=09}
+=09=09h4{
+=09=09=09color:#202020;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:18px;
+=09=09=09font-style:normal;
+=09=09=09font-weight:bold;
+=09=09=09line-height:125%;
+=09=09=09letter-spacing:normal;
+=09=09=09text-align:left;
+=09=09}
+=09=09#templateHeader{
+=09=09=09border-top:0;
+=09=09=09border-bottom:0;
+=09=09}
+=09=09#templateHeader .mcnTextContent=2C#templateHeader .mcnTextContent p{
+=09=09=09color:#202020;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:16px;
+=09=09=09line-height:150%;
+=09=09=09text-align:left;
+=09=09}
+=09=09#templateHeader .mcnTextContent a=2C#templateHeader .mcnTextContent=
+ p a{
+=09=09=09color:#007C89;
+=09=09=09font-weight:normal;
+=09=09=09text-decoration:underline;
+=09=09}
+=09=09#templateBody{
+=09=09=09border-top:0;
+=09=09=09border-bottom:0;
+=09=09}
+=09=09#templateBody .mcnTextContent=2C#templateBody .mcnTextContent p{
+=09=09=09color:#202020;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:16px;
+=09=09=09line-height:150%;
+=09=09=09text-align:left;
+=09=09}
+=09=09#templateBody .mcnTextContent a=2C#templateBody .mcnTextContent p a{
+=09=09=09color:#007C89;
+=09=09=09font-weight:normal;
+=09=09=09text-decoration:underline;
+=09=09}
+=09=09#templateFooter{
+=09=09=09border-top:0;
+=09=09=09border-bottom:0;
+=09=09}
+=09=09#templateFooter .mcnTextContent=2C#templateFooter .mcnTextContent p{
+=09=09=09color:#202020;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:12px;
+=09=09=09line-height:150%;
+=09=09=09text-align:left;
+=09=09}
+=09=09#templateFooter .mcnTextContent a=2C#templateFooter .mcnTextContent=
+ p a{
+=09=09=09color:#202020;
+=09=09=09font-weight:normal;
+=09=09=09text-decoration:underline;
+=09=09}
+=09@media only screen and (min-width:768px){
+=09=09.templateContainer{
+=09=09=09width:600px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09body=2Ctable=2Ctd=2Cp=2Ca=2Cli=2Cblockquote{
+=09=09=09-webkit-text-size-adjust:none !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09body{
+=09=09=09width:100% !important;
+=09=09=09min-width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnRetinaImage{
+=09=09=09max-width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnImage{
+=09=09=09width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnCartContainer=2C.mcnCaptionTopContent=2C.mcnRecContentContainer=
+=2C.mcnCaptionBottomContent=2C.mcnTextContentContainer=2C.mcnBoxedTextCont=
+entContainer=2C.mcnImageGroupContentContainer=2C.mcnCaptionLeftTextContent=
+Container=2C.mcnCaptionRightTextContentContainer=2C.mcnCaptionLeftImageCon=
+tentContainer=2C.mcnCaptionRightImageContentContainer=2C.mcnImageCardLeftT=
+extContentContainer=2C.mcnImageCardRightTextContentContainer=2C.mcnImageCa=
+rdLeftImageContentContainer=2C.mcnImageCardRightImageContentContainer{
+=09=09=09max-width:100% !important;
+=09=09=09width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnBoxedTextContentContainer{
+=09=09=09min-width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnImageGroupContent{
+=09=09=09padding:9px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnCaptionLeftContentOuter .mcnTextContent=2C.mcnCaptionRightConten=
+tOuter .mcnTextContent{
+=09=09=09padding-top:9px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnImageCardTopImageContent=2C.mcnCaptionBottomContent:last-child .=
+mcnCaptionBottomImageContent=2C.mcnCaptionBlockInner .mcnCaptionTopContent=
+:last-child .mcnTextContent{
+=09=09=09padding-top:18px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnImageCardBottomImageContent{
+=09=09=09padding-bottom:9px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnImageGroupBlockInner{
+=09=09=09padding-top:0 !important;
+=09=09=09padding-bottom:0 !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnImageGroupBlockOuter{
+=09=09=09padding-top:9px !important;
+=09=09=09padding-bottom:9px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnTextContent=2C.mcnBoxedTextContentColumn{
+=09=09=09padding-right:18px !important;
+=09=09=09padding-left:18px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnImageCardLeftImageContent=2C.mcnImageCardRightImageContent{
+=09=09=09padding-right:18px !important;
+=09=09=09padding-bottom:0 !important;
+=09=09=09padding-left:18px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcpreview-image-uploader{
+=09=09=09display:none !important;
+=09=09=09width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09h1{
+=09=09=09font-size:22px !important;
+=09=09=09line-height:125% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09h2{
+=09=09=09font-size:20px !important;
+=09=09=09line-height:125% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09h3{
+=09=09=09font-size:18px !important;
+=09=09=09line-height:125% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09h4{
+=09=09=09font-size:16px !important;
+=09=09=09line-height:150% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09table.mcnBoxedTextContentContainer td.mcnTextContent=2Ctd.mcnBoxedTe=
+xtContentContainer td.mcnTextContent p{
+=09=09=09font-size:14px !important;
+=09=09=09line-height:150% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09td#templateHeader td.mcnTextContent=2Ctd#templateHeader td.mcnTextCo=
+ntent p{
+=09=09=09font-size:16px !important;
+=09=09=09line-height:150% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09td#templateBody td.mcnTextContent=2Ctd#templateBody td.mcnTextConten=
+t p{
+=09=09=09font-size:16px !important;
+=09=09=09line-height:150% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09td#templateFooter td.mcnTextContent=2Ctd#templateFooter td.mcnTextCo=
+ntent p{
+=09=09=09font-size:14px !important;
+=09=09=09line-height:150% !important;
+=09=09}
+
+}</style></head>
+    <body style=3D"background:#FFFFFF none no-repeat center/cover;height:=
+ 100%;margin: 0;padding: 0;width: 100%;-ms-text-size-adjust: 100%;-webkit-=
+text-size-adjust: 100%;background-color: #FFFFFF;background-image: none;ba=
+ckground-repeat: no-repeat;background-position: center;background-size: co=
+ver;">
+        <!--
+-->
+        <!--[if !gte mso 9]><!----><span class=3D"mcnPreviewText" style=
+=3D"display:none; font-size:0px; line-height:0px; max-height:0px; max-widt=
+h:0px; opacity:0; overflow:hidden; visibility:hidden; mso-hide:all;">Start=
+ testing this new software environment now</span><!--<![endif]-->
+        <!--
+-->
+        <center>
+            <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" height=3D"100%" width=3D"100%" id=3D"bodyTable" style=3D"backgr=
+ound:#FFFFFF none no-repeat center/cover;border-collapse: collapse;mso-tab=
+le-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-te=
+xt-size-adjust: 100%;height: 100%;margin: 0;padding: 0;width: 100%;backgro=
+und-color: #FFFFFF;background-image: none;background-repeat: no-repeat;bac=
+kground-position: center;background-size: cover;">
+                <tr>
+                    <td align=3D"left" valign=3D"top" id=3D"bodyCell" styl=
+e=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text=
+-size-adjust: 100%;height: 100%;margin: 0;padding: 10px;width: 100%;border=
+-top: 0;">
+                        <!-- BEGIN TEMPLATE // -->
+                        <!--[if (gte mso 9)|(IE)]>
+                        <table align=3D"center" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" width=3D"600" style=3D"width:600px;">
+                        <tr>
+                        <td align=3D"center" valign=3D"top" width=3D"600"=
+ style=3D"width:600px;">
+                        <![endif]-->
+                        <table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%" class=3D"templateContainer" style=3D"border-collapse=
+: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjus=
+t: 100%;-webkit-text-size-adjust: 100%;border: 0;max-width: 600px !importa=
+nt;">
+                            <tr>
+                                <td valign=3D"top" id=3D"templateHeader" s=
+tyle=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-t=
+ext-size-adjust: 100%;border-top: 0;border-bottom: 0;"></td>
+                            </tr>
+                            <tr>
+                                <td valign=3D"top" id=3D"templateBody" sty=
+le=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-tex=
+t-size-adjust: 100%;border-top: 0;border-bottom: 0;"><table border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"mcnTextBlock" s=
+tyle=3D"min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;ms=
+o-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 1=
+00%;">
+    <tbody class=3D"mcnTextBlockOuter">
+        <tr>
+            <td valign=3D"top" class=3D"mcnTextBlockInner" style=3D"paddin=
+g-top: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webki=
+t-text-size-adjust: 100%;">
+              =09<!--[if mso]>
+=09=09=09=09<table align=3D"left" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0" width=3D"100%" style=3D"width:100%;">
+=09=09=09=09<tr>
+=09=09=09=09<![endif]-->
+=09=09=09
+=09=09=09=09<!--[if mso]>
+=09=09=09=09<td valign=3D"top" width=3D"600" style=3D"width:600px;">
+=09=09=09=09<![endif]-->
+                <table align=3D"left" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" style=3D"max-width: 100%;min-width: 100%;border-collapse: col=
+lapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 10=
+0%;-webkit-text-size-adjust: 100%;" width=3D"100%" class=3D"mcnTextContent=
+Container">
+                    <tbody><tr>
+
+                        <td valign=3D"top" class=3D"mcnTextContent" style=
+=3D"padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 1=
+8px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-=
+size-adjust: 100%;word-break: break-word;color: #202020;font-family: Helve=
+tica;font-size: 16px;line-height: 150%;text-align: left;">
+
+                            Dear Tristan Vuilloz=2C<br>
+<br>
+We would like to inform you that a new software environment is available o=
+n B=C3=A9luga=2C Cedar=2C Graham and Niagara. This new environment offers=
+ many advantages including the latest version of most applications=2C perf=
+ormance optimizations and improved usability.<br>
+<br>
+<strong>Important:</strong> The 2020 environment will become the default e=
+nvironment on all of our clusters by April 2021. At that point=2C you will=
+ still be able to load the older environment=2C but new software is only b=
+eing installed for the newer environment. Therefore=2C software in the old=
+ environment will become outdated.<br>
+<br>
+<u>We strongly recommend that you start testing this new software environm=
+ent now.&nbsp;</u><br>
+<br>
+For more information please visit our <a href=3D"https://computecanada.us5=
+=2Elist-manage.com/track/click?u=3D49a9e48b981a58ddae46ee867&id=3Db98ce3456c=
+&e=3D95505db6b1" target=3D"_blank" style=3D"mso-line-height-rule: exactly=
+;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #007C89;=
+font-weight: normal;text-decoration: underline;">documentation</a>.<br>
+<br>
+<strong>How to activate this new environment (StdEnv/2020)</strong>
+
+<ul>
+=09<li style=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-=
+webkit-text-size-adjust: 100%;">You can activate this environment by using=
+ the command:&nbsp;</li>
+</ul>
+<span style=3D"font-family:courier new=2Ccourier=2Clucida sans typewriter=
+=2Clucida typewriter=2Cmonospace">module load StdEnv/2020</span>
+
+<ul>
+=09<li style=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-=
+webkit-text-size-adjust: 100%;">If you wish to make it your default before=
+ April=2C use the command :</li>
+</ul>
+<span style=3D"font-family:courier new=2Ccourier=2Clucida sans typewriter=
+=2Clucida typewriter=2Cmonospace">echo "module-version StdEnv/2020 default=
+" &gt;&gt; $HOME/.modulerc</span><br>
+<br>
+Please email <a href=3D"mailto:support@computecanada.ca?subject=3DNew%20So=
+ftware%20environment" target=3D"_blank" style=3D"mso-line-height-rule: exa=
+ctly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #007=
+C89;font-weight: normal;text-decoration: underline;">support@computecanada=
+=2Eca</a> if you have any questions or concerns about this new environment.=
+ Please include all of the <a href=3D"https://computecanada.us5.list-manag=
+e.com/track/click?u=3D49a9e48b981a58ddae46ee867&id=3D3270bdbbb2&e=3D95505db6b1" target=3D"_blank" style=3D"mso-line-height-rule: exactly;-ms-text-s=
+ize-adjust: 100%;-webkit-text-size-adjust: 100%;color: #007C89;font-weight=
+: normal;text-decoration: underline;">relevant details</a> in your email.<=
+br>
+<br>
+Thank you=2C<br>
+<br>
+Compute Canada Support Team<br>
+&nbsp;
+                        </td>
+                    </tr>
+                </tbody></table>
+=09=09=09=09<!--[if mso]>
+=09=09=09=09</td>
+=09=09=09=09<![endif]-->
+
+=09=09=09=09<!--[if mso]>
+=09=09=09=09</tr>
+=09=09=09=09</table>
+=09=09=09=09<![endif]-->
+            </td>
+        </tr>
+    </tbody>
+</table></td>
+                            </tr>
+                            <tr>
+                                <td valign=3D"top" id=3D"templateFooter" s=
+tyle=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-t=
+ext-size-adjust: 100%;border-top: 0;border-bottom: 0;"></td>
+                            </tr>
+                        </table>
+                        <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                        <!-- // END TEMPLATE -->
+                    </td>
+                </tr>
+            </table>
+        </center>
+                <center>
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%" id=3D"canspamBarWrapper" style=3D"background-color:#FFFFFF; b=
+order-top:1px solid #E5E5E5;">
+                    <tr>
+                        <td align=3D"center" valign=3D"top" style=3D"paddi=
+ng-top:20px; padding-bottom:20px;">
+                            <table border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" id=3D"canspamBar">
+                                <tr>
+                                    <td align=3D"center" valign=3D"top" st=
+yle=3D"color:#606060; font-family:Helvetica=2C Arial=2C sans-serif; font-s=
+ize:11px; line-height:150%; padding-right:20px; padding-bottom:5px; paddin=
+g-left:20px; text-align:center;">
+                                        This email was sent to <a href=3D"=
+mailto:tristan.vuilloz@polymtl.ca" target=3D"_blank" style=3D"color:#404040 !importa=
+nt;">tristan.vuilloz@polymtl.ca</a>
+                                        <br />
+                                        <a href=3D"https://computecanada.u=
+s5.list-manage.com/about?u=3D49a9e48b981a58ddae46ee867&id=3Dc3c951e025&e=
+=3D95505db6b1&c=3D3ae87639e7" target=3D"_blank" style=3D"color:#404040 !impo=
+rtant;"><em>why did I get this?</em></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href=3D=
+"https://computecanada.us5.list-manage.com/unsubscribe?u=3D49a9e48b981a58d=
+dae46ee867&id=3Dc3c951e025&e=3D95505db6b1&c=3D3ae87639e7" style=3D"color:#40=
+4040 !important;">unsubscribe from this list</a>&nbsp;&nbsp;&nbsp;&nbsp;<a=
+ href=3D"https://computecanada.us5.list-manage.com/profile?u=3D49a9e48b981=
+a58ddae46ee867&id=3Dc3c951e025&e=3D95505db6b1" style=3D"color:#404040 !impor=
+tant;">update subscription preferences</a>
+                                        <br />
+                                        Compute Canada &middot; 155 Univer=
+sity Ave=2C Suite 302 &middot; Toronto=2C ON M5H 3B7 &middot; Canada
+                                        <br />
+                                        <br />
+
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <style type=3D"text/css">
+                    @media only screen and (max-width: 480px){
+                        table#canspamBar td{font-size:14px !important;}
+                        table#canspamBar td a{display:block !important; ma=
+rgin-top:10px !important;}
+                    }
+                </style>
+            </center><img src=3D"https://computecanada.us5.list-manage.com=
+/track/open.php?u=3D49a9e48b981a58ddae46ee867&id=3D3ae87639e7&e=3D95505db6b1" height=3D"1" width=3D"1"></body>
+</html>
+--_----------=_MCPart_977457029--
